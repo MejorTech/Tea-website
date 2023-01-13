@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/style.css"> 
+
+        <title>Responsive coffee website - Bedimcode</title>
+    </head>
+    <body>
+        <!--==================== LOADER ====================-->
+
+         <div class="load" id="load">
+            <img src="assets/img/loadcoffee.gif" alt="" class="load_gif">
+        </div>
+
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+
+                <a href="#logo" class="nav-logo">
+                    <img src="assets/img/logo.png" alt="logo" class="nav_logo-img"> 
+                    Coffee.
+                </a>
+                <div class="nav_menu" id="nav-menu">
+                    <ul class="menu-list">
+                        <li class="nav-list"><a href="#home" class="nav-link active-link">Home</a></li>
+
+                        <li class="nav-list"><a href="#product" class="nav-link">Product</a></li>
+
+                        <li class="nav-list"><a href="#premium" class="nav-link">Premium</a></li>
+
+                        <li class="nav-list"><a href="#blog" class="nav-link"> Blog</a></li>
+                    </ul>
+
+                    <div class="nav_close" id="nav-close">
+                        <i class='bx bx-x'></i>
+                    </div>
+
+                </div>
+                <!-- Toggle button -->
+                <div class="nav_toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== MAIN ====================-->
+        <main>
+            <!--==================== HOME ====================-->
+            <section class="home grid" id="home">
+                <div class="home_container">
+                     <div class="home_content container">
+                        <h1 class="home_title">
+                            Choose Your Favourite Coffee and Enjoy <span>.</span>
+                        </h1>
+                        <p class="home_description">
+                            Buy the best delicious coffes. 
+                        </p>
+
+                        <div class="home_data">
+
+                            <div class="home_data-group">
+                                <h2 class="home_data-number">120K</h2>
+                                <h3 class="home_data-title">Testimonials</h3>
+                                <p class="home_data-description">Testimonials from different customers who trust us</p>
+                            </div>
+
+                            <div class="home_data-group">
+                                <h2 class="home_data-number">340+</h2>
+                                <h3 class="home_data-title">Executive Products</h3>
+                                <p class="home_data-description">Premium preparation with quality ingredients</p>
+                            </div>
+
+                            
+                        </div>
+
+                        <a href="#specialty">
+                            <img src="assets/img/scroll.png" alt="" class="home_scroll">
+                        </a>
+
+                     </div> 
+                </div> 
+
+                <img src="assets/img/home.png" alt="" class="home-img">
+
+            </section>
+
+            <!--==================== ESPECIALTY ====================-->
+            <div class="specialty section container" id="specialty">
+
+                <div class="specialty_container">
+
+                    <div class="speciality_box">
+                        <h2 class="section__title">
+                            Special coffees that make you happy and cheer you up!
+                        </h2>
+    
+                        <div >
+                            <a href="#" class="button specialty_button"> See More</a>
+                        </div>
+                    </div>
+
+                    <div class="specialty_category">
+                        <div class="speciality_group ">
+                            <img src="assets/img/specialty1.png" alt="" class="speciality_img">
+                            <h3 class="speciality_title">Selected Coffee</h3>
+                            <p class="speciality_description"> We select the best premium coffee for a true taste </p>
+                        </div>
+                        <div class="speciality_group specialty_line">
+                            <img src="assets/img/specialty2.png" alt="" class="speciality_img">
+                            <h3 class="speciality_title"> Delicious Cookies </h3>
+                            <p class="speciality_description">Enjoy your coffee with some delicious </p>
+                        </div>
+                        <div class="speciality_group specialty_line">
+                            <img src="assets/img/specialty3.png" alt="" class="speciality_img">
+                            <h3 class="speciality_title">Enjoy at Home </h3>
+                            <p class="speciality_description">Enjoy our wonderful Coffe from the confort of your house</p>
+                        </div>
+                    </div>
+
+                </div>           
+            </div>
+
+            <!--==================== PRODUCTS ====================-->
+            <section class="products section" id="products">
+                 <div class="products_container container">
+                        <h2 class="section__title">
+                            Choose our delicious and best products
+                        </h2>
+
+                        <ul class="products_filters">
+                            <li class="products_item products_line active-product"  data-filter=".delicacies">
+                                <h3 class="products_title ">New Delicacies</h3>
+                                <span class="products_stocks">3 Products</span>
+                            </li>
+
+                            <li class="products_item products_line"  data-filter=".coffee">
+                                <h3 class="products_title">Hot Coffee</h3>
+                                <span class="products_stocks">4 Products</span>
+                            </li>
+
+                            <li class="products_item"  data-filter=".cake">
+                                <h3 class="products_title">Cake and Delicacies</h3>
+                                <span class="products_stocks"> 4 Products</span>
+                            </li>
+                        </ul>
+
+                        <div class="grid product_content">
+                            <!--============Delicacies============-->
+                            <article class="products_card delicacies">  
+
+                                <div class="product_shape">
+                                    <img src="assets/img/delicacies1.png" alt="" class="products_img">
+                                </div>
+                                <div class="product_data">
+                                    <h2 class="product_price">$5</h2>
+                                    <h3 class="products_name"> Cookies</h3>
+
+                                    <button class="button products_button">
+                                        <i class='bx bx-shopping-bag'></i>
+                                    </button>
+                                </div>
+                            </article>
+
+                            <article class="products_card delicacies">
+
+                                <div class="product_shape">
+                                    <img src="assets/img/delicacies2.png" alt="" class="products_img">
+                                </div>
+                                <div class="product_data">
+                                    <h2 class="product_price">$10</h2>
+                                    <h3 class="products_name">Croissant</h3>
+
+                                    <button class="button products_button">
+                                        <i class='bx bx-shopping-bag'></i>
+                                    </button>
+                                </div>
+                            </article>
+
+                            <article class="products_card delicacies">
+
+                                <div class="product_shape">
+                                    <img src="assets/img/delicacies3.png" alt="" class="products_img">
+                                </div>
+                                <div class="product_data">
+                                    <h2 class="product_price">$6</h2>
+                                    <h3 class="products_name">brownie</h3>
+
+                                    <button class="button products_button">
+                                        <i class='bx bx-shopping-bag'></i>
+                                    </button>
+                                </div>
+                            </article>
+
+                            <!--============Coffee============-->
+                            <article class="products_card coffee">
+
+                                <div class="product_shape">
+                                    <img src="assets/img/coffee1.png" alt="" class="products_img">
+                                </div>
+                                <div class="product_data">
+                                    <h2 class="product_price">$8</h2>
+                                    <h3 class="products_name">Black Coffee</h3>
+
+                                    <button class="button products_button">
+                                        <i class='bx bx-shopping-bag'></i>
+                                    </button>
+                                </div>
+                            </article>
+
+                            <article class="products_card coffee">
+
+                                <div class="product_shape">
+                                    <img src="assets/img/coffee2.png" alt="" class="products_img">
+                                </div>
+                                <div class="product_data">
+                                    <h2 class="product_price">$10</h2>
+                                    <h3 class="products_name">milk Coffee</h3>
+
+                                    <button class="button products_button">
+                                        <i class='bx bx-shopping-bag'></i>
+                                    </button>
+                                </div>
+                            </article>
+
+                            <article class="products_card coffee">
+
+                                <div class="product_shape">
+                                    <img src="assets/img/coffee3.png" alt="" class="products_img">
+                                </div>
+                                <div class="product_data">
+                                    <h2 class="product_price">$9</h2>
+                                    <h3 class="products_name">Pure Coffee</h3>
+
+                                    <button class="button products_button">
+                                        <i class='bx bx-shopping-bag'></i>
+                                    </button>
+                                </div>
+                            </article>
+
+                            <article class="products_card coffee">
+
+                                <div class="product_shape">
+                                    <img src="assets/img/coffee4.png" alt="" class="products_img">
+                                </div>
+                                <div class="product_data">
+                                    <h2 class="product_price">$12</h2>
+                                    <h3 class="products_name">creamy Coffee</h3>
+
+                                    <button class="button products_button">
+                                        <i class='bx bx-shopping-bag'></i>
+                                    </button>
+                                </div>
+                            </article>
+
+                            <!--============Cake============-->
+                            <article class="products_card cake">
+
+                                <div class="product_shape">
+                                    <img src="assets/img/cake1.png" alt="" class="products_img">
+                                </div>
+                                <div class="product_data">
+                                    <h2 class="product_price">$6</h2>
+                                    <h3 class="products_name">Cream cake</h3>
+
+                                    <button class="button products_button">
+                                        <i class='bx bx-shopping-bag'></i>
+                                    </button>
+                                </div>
+                            </article>
+
+                            <article class="products_card cake">
+
+                                <div class="product_shape">
+                                    <img src="assets/img/cake2.png" alt="" class="products_img">
+                                </div>
+                                <div class="product_data">
+                                    <h2 class="product_price">$12</h2>
+                                    <h3 class="products_name">Chocolate cake</h3>
+
+                                    <button class="button products_button">
+                                        <i class='bx bx-shopping-bag'></i>
+                                    </button>
+                                </div>
+                            </article>
+
+                            <article class="products_card cake">
+
+                                <div class="product_shape">
+                                    <img src="assets/img/cake3.png" alt="" class="products_img">
+                                </div>
+                                <div class="product_data">
+                                    <h2 class="product_price">$15</h2>
+                                    <h3 class="products_name">pancake</h3>
+
+                                    <button class="button products_button">
+                                        <i class='bx bx-shopping-bag'></i>
+                                    </button>
+                                </div>
+                            </article>
+
+                            <article class="products_card cake">
+
+                                <div class="product_shape">
+                                    <img src="assets/img/cake4.png" alt="" class="products_img">
+                                </div>
+                                <div class="product_data">
+                                    <h2 class="product_price">$15</h2>
+                                    <h3 class="products_name">Milk cake</h3>
+
+                                    <button class="button products_button">
+                                        <i class='bx bx-shopping-bag'></i>
+                                    </button>
+                                </div>
+                            </article>
+
+                        </div>
+                 </div>
+            </section>
+
+            <!--==================== QUALITY ====================-->
+            <section class="quality section" id="premium">
+                <div class="quality_container container">
+                    <h2 class="section__title">
+                        We offer a premium and quality preparation just for you! 
+                    </h2>
+                    <div class="quality_content grid">
+                        <div class="quality_img">
+                            <img src="assets/img/quality1.png" alt="" class="quality_img-big">
+                            <img src="assets/img/quality2.png" alt="" class="quality_img-small">
+                        </div>
+
+                        <div class="quality_data">
+                            <h1 class="quality_title"> Premium Coffee</h1>
+                            <h2 class="quality_price">$94.99</h2>
+                            <span class="quality_special">Especial Price</span>
+                            <p class="quality_description">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus iste repellendus error beatae illum officiis mollitia id architecto totam nostrum!
+                            </p>
+
+                            <div class="quality_buttons">
+                                <button class="button">
+                                    Buy Now
+                                </button>
+
+                                <a href="#" class="quality_button">
+                                    See More
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                </a>
+                            </div>
+
+                            </div>
+                        
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== LOGOS ====================-->
+            <section class="logo section">
+                <div class="logo_container container grid">
+                    <img src="assets/img/logocoffee1.png" alt="" class="log_img">
+                    <img src="assets/img/logocoffee2.png" alt="" class="log_img">
+                    <img src="assets/img/logocoffee3.png" alt="" class="log_img">
+                    <img src="assets/img/logocoffee4.png" alt="" class="log_img">
+                    <img src="assets/img/logocoffee5.png" alt="" class="log_img">
+                </div>
+            </section>
+
+            <!--==================== BLOG ====================-->
+            <section class="blog section" id="blog">
+                 <div class="blog_container container">
+                    <h2 class="section__title">
+                        Our Blogs Coffee with trending topic for this week
+                    </h2>
+
+                    <div class="blog_content grid">
+                        <article class="blog_card">
+                            <div class="blog_image">
+                                <img src="assets/img/blog1.png" alt="" class="blog_img">
+                                <a href="#" class="blog_button">
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                </a>
+                            </div>
+
+                            <div class="blog_data">
+                                <h2 class="blog_title">
+                                    10 Coffee Recommendation
+                                </h2>  
+                                <p class="blog_description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore deleniti porro ab minus, autem possimus!
+                                </p> 
+                                
+                                <div class="blog_footer">
+                                    <div class="blog_reaction">
+                                        <i class='bx bx-comment' ></i>
+                                        <span>12</span>
+                                    </div>
+
+                                    <div class="blog_reaction">
+                                        <i class='bx bx-show'></i>
+                                        <span>76,5K</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+
+                        <article class="blog_card">
+                            <div class="blog_image">
+                                <img src="assets/img/blog2.png" alt="" class="blog_img">
+                                <a href="#" class="blog_button">
+                                    <i class='bx bx-right-arrow-alt'></i>
+                                </a>
+                            </div>
+
+                            <div class="blog_data">
+                                <h2 class="blog_title">
+                                    12 Benefit of Drinking Coffee
+                                </h2>  
+                                <p class="blog_description">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic ipsum exercitationem ipsam tenetur magni necessitatibus.
+                                </p> 
+                                
+                                <div class="blog_footer">
+                                    <div class="blog_reaction">
+                                        <i class='bx bx-comment' ></i>
+                                        <span>45</span>
+                                    </div>
+
+                                    <div class="blog_reaction">
+                                        <i class='bx bx-show'></i>
+                                        <span>365,5K</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                 </div>
+            </section>
+        </main>
+
+        <!--==================== FOOTER ====================-->
+        <footer class="footer">
+            <div class="footer_container container">
+                <h1 class="footer_title">
+                    Coffee.
+                </h1>
+
+                <div class="footer_content grid">
+
+                    <div class="footer_data">
+                        <p class="footer_description">
+                            Subscribe to our newsletter
+                        </p>
+                         <div class="footer_newsletter">
+                            <input type="email" class="footer_input" placeholder="Your email address">
+                            <button class="footer_button">
+                                <i class='bx bx-right-arrow-alt'></i>
+                            </button>
+                         </div>
+                    </div>
+                    <div class="footer_data">
+                      <h2 class="footer_subtitle"> Adress</h2>
+                      <p class="footer_information">
+                        9876 Haclenda Av. <br> Lina, La librate 123, peru
+                        <img src="assets/img/footerflag.png" alt="" class="footer_flag">
+                      </p>
+                      
+                    </div>
+
+                    <div class="footer_data">
+                        <h2 class="footer_subtitle">Contact</h2>
+                        <p class="footer_information">
+                            +234 8141725266 <br> alasanclement001@gmail.com
+                        </p>
+                      </div>
+
+                      <div class="footer_data">
+                        <h2 class="footer_subtitle"> Office </h2>
+                        <p class="footer_information">
+                            Monday - Saturday <br> 9AM - 10PM
+                        </p>
+                      </div>
+                </div>
+
+                <div class="footer_group">
+                     <ul class="footer_social">
+                        <a href="http://www.facebook.com/" class="footer_social-link" target="_blank">
+                            <i class='bx bxl-facebook'></i>
+                        </a>
+
+                        <a href="http://www.twitter.com/" class="footer_social-link" target="_blank">
+                            <i class='bx bxl-twitter'></i>
+                        </a>
+
+                        <a href="http://www.instagram.com/" class="footer_social-link" target="_blank">
+                            <i class='bx bxl-instagram'></i>
+                        </a>
+                     </ul>
+
+                     <span class="footer_copy">
+                        &#169; MejorTech. All rights reserved
+                     </span>
+                </div>
+            </div>
+        </footer>
+
+
+        <!--========== SCROLL UP ==========-->
+            <a href="" class="scrollup" id="scroll-up">
+                <i class='bx bx-up-arrow-alt'></i>
+            </a>
+
+        <!--=============== MIXITUP FILTER ===============-->
+        <script src="assets/Js/mixitup.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/Js/main.js"></script>
+    </body>
+    
+</html>
